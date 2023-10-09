@@ -6,11 +6,27 @@
   <meta name="description" content="HTML CSS Video Background Project">
   <meta name="author" content="Shelton Potter">
 
+  <!-- Link to my Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/cb216a6a38.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="style.css">
   <title>Video Background</title>
 </head>
 <body>
-    <section id="main"></section>
-
+  <section id="main">
+    <div id="video-container">
+      <!-- Autoplay starts the video. Loop causes the video to continuously loop the video. Muted removes any sound/audio from the video. -->
+      <video src="html.mp4" autoplay loop muted></video>
+    </div>
+    <!-- Div to cover/darken the video -->
+    <div id="cover"></div>
+    <div id="content">
+        <h1>Shelton Potter</h1>
+        <h2>Web Development</h2>
+      <!-- Setting the href value to an ID will take the user to the element with that ID when the link is clicked -->git comm
+        <a href="#about" id="click"></a>
+    </div>
+    
+  </section>
 </body>
 </html>
